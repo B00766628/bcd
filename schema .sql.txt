@@ -1,0 +1,13 @@
+create table TimeTable (
+	
+	departs VARCHAR(50),
+	departsfrom VARCHAR(80),
+	arrives VARCHAR(50),
+	arrivesto VARCHAR(50)
+	
+);
+insert into TimeTable (departs,departsfrom,arrives,arrivesto) values ( '09:30:00', 'Termonfeckin Terminal 4', '19:45:00', 'Somalia');
+insert into TimeTable (departs,departsfrom,arrives,arrivesto) values ( '10:00:00', 'Termonfeckin Terminal 1', '20:15:00', 'Los cabos');
+insert into TimeTable (departs,departsfrom,arrives,arrivesto) values ( '11:30:00', 'Termonfeckin Terminal 2', '21:50:00', 'Caracas');
+insert into TimeTable (departs,departsfrom,arrives,arrivesto) values ( '12:00:00', 'Termonfeckin Terminal 3', '22:05:00', 'Acapulco');
+insert into TimeTable (departs,departsfrom,arrives,arrivesto) values ( '13:30:00', 'Termonfeckin Terminal 4', '23:25:00', 'Natal');
